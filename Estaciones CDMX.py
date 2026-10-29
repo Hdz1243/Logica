@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import networkx as nx
 
+G = nx.Graph()
 metro_cdmx = {
     "Línea 1": [
         "Pantitlán", "Zaragoza", "Gómez Farías", "Boulevard Puerto Aéreo",
